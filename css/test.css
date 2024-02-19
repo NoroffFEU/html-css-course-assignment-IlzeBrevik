@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+}
+
+header{
+    
+    padding:0px;
+    height:500px;
+    width:1000px;
+    margin:0px;
+    background-color:blueviolet;
+    overflow:hidden;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+   }
+
+.left-section{
+    display: flex; 
+    width: 320px;
+    height:130px;
+    background-color: black;
+    color: white;
+   
+    font-size: 28px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+     }
+
+.middle-section{
+    display: flex;
+    width: auto;
+    height:130px;
+}
+.right-section{
+    display: flex;
+    height:130px;
+    background-color: black;
+    
+}    
