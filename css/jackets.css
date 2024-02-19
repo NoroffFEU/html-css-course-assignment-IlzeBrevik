@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');  
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Spline+Sans:wght@300&display=swap');
+
+
+body {
+    margin: 0;
+    font-family: Spline sans;
+  }
+  
+  .header-container {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    background-color:black;
+    color: white;
+    height:420px;
+     justify-content:space-between;
+     padding-top:50;
+     flex:auto;
+     justify-content: center;
+  }
+
+  .right-navigation{
+    margin-left: 250px;
+    flex: 1;
+    padding: 100px;
+    flex: auto;
+    padding-top: 190px;
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+   }
+
+  .tabs{
+    margin-top:150px;
+    flex:auto
+  }
+
+  .tabs ul{
+  list-style:none;
+  }
+ 
+ .tabs-navigation{
+ list-style: none;
+ display:flex;
+ justify-content: center;
+ 
+ }
+.tabs-navigation li{
+  margin-right:20px;
+ }
+
+  .a {
+    width:200px;
+    height: 200px;
+    
+}
+
+.tabs ul li a {
+
+ padding: 10px;
+ color:white;
+ font-size:100px;
+ text-decoration:none;
+ font-family: 'Spline Sans', sans-serif;
+
+ 
+}
+
+.logo{
+    width: 700px;
+    height: 400px;
+    padding-top: 10px;
+    
+  } 
+  <!--end of header-->
+
+.headline p{
+    font-size: 48px;
+    font-family:'Spline Sans', sans-serif ;
+    margin-left: 50px;
+  }
+
+.headline h2{
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+  }
+
+.headline h4{
+    font-family:'Spline Sans', sans-serif;
+    font-size: 64px;
+  }
+
+
+  
+
+
